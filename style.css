@@ -1,0 +1,37 @@
+.help-button {
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    width: 200px;
+    height: 40px;
+    background: #17e74b;
+    border: 0px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;	
+	cursor: pointer;
+    display: block;
+    transform: rotate(-90deg);
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    -webkit-transform: rotate(-90deg) translateY(120px);
+    -moz-transform: rotate(-90deg) translateY(120px);
+    -ms-transform: rotate(-90deg) translateY(120px);
+    -o-transform: rotate(-90deg) translateY(120px);
+    transform: rotate(-90deg) translateY(120px);
+}
+
+.help-button:hover {background: #7de497;}
+.help-button:active {background: #008622;}
+
+.show-button {
+  -webkit-transform: translateY(70px);
+  -moz-transform: translateY(70px);
+  -ms-transform: translateY(70px);
+  -o-transform: translateY(70px);
+  transform: rotate(-90deg) translateY(70px);
+}
